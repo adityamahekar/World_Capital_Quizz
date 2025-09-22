@@ -3,7 +3,10 @@
 
 ---
 
-Do you want me to also **embed the EJS template code** (`index.ejs`) inside this same markdown page so it’s truly “all in one page”?
+This is a simple World Capitals App built with Express.js, PostgreSQL, and EJS.
+Users can view the list of countries and their capitals, and add new entries via a form.
+The app demonstrates full-stack integration with a PostgreSQL database and server-side rendering.
+Screenshots below showcase the main pages and functionality of the app.
 
 ---
 
