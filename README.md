@@ -11,11 +11,11 @@ Do you want me to also **embed the EJS template code** (`index.ejs`) inside this
 
 | Quizz| Quizz|
 |--------|--------|
-| ![pgq1](pgq1.png){style="border:2px solid #000;"} | ![pgq2](pgq2.png){style="border:2px solid #000;"} |
+| ![pgq1](pgq1.png) | ![pgq2](pgq2.png) |
 
 | Quizz |
 |--------|
-| <div style="text-align:center;"><img src="pgq3.png" style="border:2px solid #000;" /></div> |
+| ![pgq3](pgq3.png) |
 
 ---
 
@@ -49,3 +49,5 @@ const db = new pg.Client({
 ```bash
 node index.js
 ```
+---
+👉 [Open App on Localhost](http://localhost:3000)
