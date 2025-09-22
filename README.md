@@ -22,7 +22,7 @@ Screenshots below showcase the main pages and functionality of the app.
 
 ---
 
-## 1️⃣ Create Table in PostgreSQL
+ 1️⃣ Create Table in PostgreSQL
 ```sql
 CREATE TABLE capitals1 (
     id SERIAL PRIMARY KEY,
@@ -42,11 +42,10 @@ const app = express()
 const db = new pg.Client({
   user: "postgres",
   host: "localhost",
-  database: "world",
-  password: "XXXX",   // <-- your PostgreSQL password
-  port: XXXX // <-- your PostgreSQL port number
-})
-```
+  database: "XXXXX",    // <-- your database name
+  password: "XXXXX",    // <-- your password
+  port: XXXX,           // <-- your port name
+});
 
 4️⃣ Run Server
 ```bash
