@@ -22,7 +22,7 @@ Screenshots below showcase the main pages and functionality of the app.
 
 ---
 
- 1️⃣ Create Table in PostgreSQL
+ 1️⃣ Create Table in PostgreSQL:
 ```sql
 CREATE TABLE capitals1 (
     id SERIAL PRIMARY KEY,
@@ -30,13 +30,13 @@ CREATE TABLE capitals1 (
     capital VARCHAR(45)
 );
 ```
-2️⃣ Install Dependencies
+2️⃣ Install Dependencies:
 ```bash
 npm i
 npm i pg express ejs body-parser
 ```
 
-3️⃣ Database Connection (index.js)
+3️⃣ Database Connection (index.js):
 ```bash
 const app = express()
 const db = new pg.Client({
@@ -47,7 +47,7 @@ const db = new pg.Client({
   port: XXXX,           // <-- your port name, by default for pg 5432
 });
 ```
-4️⃣ Run Server
+4️⃣ Run Server:
 ```bash
 node index.js
 ```
