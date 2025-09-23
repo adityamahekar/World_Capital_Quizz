@@ -44,7 +44,7 @@ const db = new pg.Client({
   host: "localhost",
   database: "XXXXX",    // <-- your database name
   password: "XXXXX",    // <-- your password
-  port: XXXX,           // <-- your port name
+  port: XXXX,           // <-- your port name, by default for pg 5432
 });
 ```
 4️⃣ Run Server
